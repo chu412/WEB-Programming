@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-@import url('href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville"');
+@import url('href="https://fonts.googleapis.com/css?family=Libre+Baskerville');
 body {
     background-color: #f4d1e2;
     text-indent: 25px;
@@ -11,18 +11,28 @@ body {
     padding: 0px;
 }
 
-header, footer {
+header {
     background-color: #ed88b9;
     margin: 20px;
     padding: 10px;
     box-shadow: 7px 7px 10px rgb(116, 31, 73);
     
 }
+footer {
+    background-color: #ed88b9;
+    margin: 20px;
+    padding: 3px;
+    box-shadow: 7px 7px 10px rgb(116, 31, 73);
+}
 
 header h1{
     font-family: "Audiowide", sans-serif;
     color: rgb(112, 12, 71);
-    font-size: 50px;
+    font-size: 3.2em;
+}
+
+header p {
+    color: rgb(112, 12, 71);
 }
 
 .slider-bar {
@@ -37,6 +47,10 @@ header h1{
 .slider-bar a {
     width: 100%;
     text-align: center;
+    text-decoration-line: none;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    color: rgb(112, 12, 71);
 }
 
 article{
@@ -50,12 +64,14 @@ article{
 }
 
 .city h2 {
-    font-size: 35px;  
+    font-size: 2.1em;  
+    color: rgb(112, 12, 71);
 }
 
 .city-text {
     line-height: 24px;   
 }
+
 
 .transform {
     text-transform: uppercase;
@@ -67,6 +83,15 @@ article{
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(116, 31, 73);
 
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+}
+
+footer span {
+    font-weight: bold;
 }
 
 #contact {
