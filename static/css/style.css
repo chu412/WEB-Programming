@@ -74,6 +74,7 @@ aside {
  }
 
 article{
+    flex-direction:column;
     background-color: #f1bbd6;
     margin: 20px;
     padding-top: 10px;
@@ -83,7 +84,15 @@ article{
     box-shadow: 7px 7px 10px rgb(116, 31, 73);
 }
 
-.city h2 {
+.content img {
+     float: left;
+     width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.header-content h2 {
     font-size: 2.1em;  
     color: rgb(112, 12, 71);
 }
@@ -97,13 +106,9 @@ article{
     text-transform: uppercase;
 }
 
-.photo {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgb(116, 31, 73);
 
-}
+
+
 
 footer p {
     text-align: center;
@@ -141,7 +146,7 @@ footer span {
 }
 
 .gallery {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -169,7 +174,7 @@ footer span {
     border-collapse: collapse;
     border: 1px solid black;
     overflow-y: auto;
-    grid-template-columns: 2fr 2fr 2fr 2fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 thead, tbody, tr {
@@ -214,5 +219,6 @@ th {
     .gallery, .slider-bar {
         flex-direction: column;
     }
+
   }
 
