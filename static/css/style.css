@@ -39,7 +39,7 @@ header p {
 
 .slider-bar {
     margin: 20px;
-    padding: 20px;
+    padding: 5px;
     background-color: #ed88b9;
     display: flex;
     justify-content: space-between;
@@ -58,6 +58,11 @@ header p {
 .slider-bar a:hover{
     background-color: #db7093;
     color: white;
+}
+
+.slider-bar a:active{
+    background-color: aliceblue;
+    color: #75053b;
 }
 
 aside {
@@ -103,7 +108,7 @@ article{
     text-transform: uppercase;
 }
 
-footer p {
+footer {
     text-align: center;
     font-style: italic;
 }
@@ -216,3 +221,7 @@ th {
 
   }
 
+  .a-now {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
