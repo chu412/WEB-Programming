@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('href="https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
-* {
-    box-sizing: border-box;
-  }
 
 body {
     background-color: #f4d1e2;
@@ -88,7 +85,6 @@ article{
      float: left;
      width: 100%;
      max-width: 300px;
-    height: 300px;
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -143,8 +139,8 @@ footer span {
 }
 
 .gallery {
-    width: 100%;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 900px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -209,7 +205,7 @@ th {
    text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     aside {
         display: none;
     }
