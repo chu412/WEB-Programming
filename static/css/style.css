@@ -221,7 +221,7 @@ th {
 
   }
 
-.nav_element_active {
+.slider-bar a.nav_element_active {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
