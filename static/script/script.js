@@ -6,7 +6,7 @@ window.onload = function() {
     let links = document.getElementsByClassName("nav_element");
     for (let i = 0; i < links.length; i++)
     {
-        if (links[i].href == window.location.href)
+        if (links[i].href === window.location.href)
         {
             links[i].classList.add("nav_element_active");
         }
