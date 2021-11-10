@@ -1,13 +1,7 @@
-let startTime = 0;
-
-(function() {
-    startTime = (new Date).getTime();
-})();
-
-
 window.onload = function() {
-    let endTime = (new Date).getTime();
-    let load =  (endTime - startTime);
-    newText = document.createTextNode("Loaded in " + load.toString() + " ms");
+    var loadTime = window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart;
+    newText = document.createTextNode("Loaded in " + loadTime.toString() + " ms");
 	document.getElementsByTagName("FOOTER")[0].appendChild(newText);
+
+    
 }
