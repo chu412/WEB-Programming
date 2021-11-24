@@ -8,7 +8,7 @@ function tryAddElement(event)
     }
     catch(err)
     {
-        alert(err)
+        alert(err);
     }
     document.getElementById("form").value = "";
     event.stopPropagation();
@@ -37,7 +37,7 @@ function makeElement(tex)
 {
     let element = document.getElementById('formtemp').content.cloneNode(true).childNodes[1];
     element.getElementsByTagName('P')[0].textContent = tex;
-    return element
+    return element;
 }
 
 function loadList()
@@ -58,7 +58,7 @@ function loadList()
 }
 
 window.addEventListener("load", function(event) {
-    loadList()
+    loadList();
     document.addEventListener("submit", tryAddElement);
   });  
   
