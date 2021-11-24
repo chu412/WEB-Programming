@@ -3,8 +3,8 @@ function tryAddElement(event)
     try {	
         let tex = document.getElementById("form").value;
         let element = makeElement(tex);
-        document.getElementById("todolist").appendChild(element)
-        dumpLines(document.getElementById("todolist"))
+        document.getElementById("todolist").appendChild(element);
+        dumpLines(document.getElementById("todolist"));
     }
     catch(err)
     {
@@ -16,8 +16,8 @@ function tryAddElement(event)
 
 function Delete(obj)
 {
-    obj.parentNode.remove()
-    dumpLines(document.getElementById("todolist"))
+    obj.parentNode.remove();
+    dumpLines(document.getElementById("todolist"));
 }
 
 function dumpLines(div)
@@ -27,10 +27,10 @@ function dumpLines(div)
     let ps = div.getElementsByClassName('task-text');
     for (let i = 0; i < ps.length; i++)
     {
-        child = ps[i]
-        lines.push(child.getElementsByTagName('P')[0].textContent)
+        child = ps[i];
+        lines.push(child.getElementsByTagName('P')[0].textContent);
     }
-    window.localStorage.setItem("loc", JSON.stringify(lines))
+    window.localStorage.setItem("loc", JSON.stringify(lines));
 }
 
 function makeElement(tex)
@@ -50,8 +50,8 @@ function loadList()
             if (list)
             {
                 for (let i = 0; i < list.length; i++) {
-                    element = makeElement(list[i])
-                    div.appendChild(element)
+                    element = makeElement(list[i]);
+                    div.appendChild(element);
                 }
             }
         }
@@ -59,6 +59,6 @@ function loadList()
 
 window.addEventListener("load", function(event) {
     loadList()
-    document.addEventListener("submit", tryAddElement)
+    document.addEventListener("submit", tryAddElement);
   });  
   
