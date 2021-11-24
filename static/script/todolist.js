@@ -10,7 +10,7 @@ function tryAddElement(event)
     {
         alert(err)
     }
-    document.getElementById("form").value = "";
+    document.getElementById("form").value = ""
     event.stopPropagation();
 }
 
@@ -23,7 +23,7 @@ function Delete(obj)
 function dumpLines(div)
 {
     let lines = []
-    let child = null;
+    let child = null
     let ps = div.getElementsByClassName('task-text')
     for (let i = 0; i < ps.length; i++)
     {
