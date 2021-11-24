@@ -37,7 +37,7 @@ function makeElement(tex)
 {
     let element = document.getElementById('formtemp').content.cloneNode(true).childNodes[1];
     element.getElementsByTagName('P')[0].textContent = tex;
-    return element;
+    return element
 }
 
 function loadList()
