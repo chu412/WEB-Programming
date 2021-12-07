@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+#main_post {
+	color: rgb(116, 31, 73);
+    margin: auto;
+	margin-left: 20px;
+	background-color: #f1bbd6;
+	text-align: center;
+	font-size: 20px;
+}
+
+.post {
+	border: 2px solid rgb(116, 31, 73);
+	border-radius: 7px;
+	width: 300px;
+	padding: 5px;
+	margin-top: 10px;
+	max-width: 300px;
+	color: rgb(116, 31, 73);
+	margin-right: 10px;
+	min-height: 427px;
+}
+
+h3 {
+    font-family: "Audiowide", sans-serif;
+}
+
+#posts {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+#add-post {
+	background-color: #f0a4ca;
+    color: rgb(116, 31, 73)2 ;
+    border: solid 2px rgb(116, 31, 73) ;
+    font-size: large;
+    height: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 12px;
+    flex-grow: 0;
+    border-radius: 0.4rem;
+}
+
+#add-post:hover {
+	background-color: #db7093;
+    color: white;
+}
+.post.preloader.disabled {
+	display: none;
+}
