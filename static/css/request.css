@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 #main_post {
 	color: rgb(116, 31, 73);
-    margin: auto;
+        margin: auto;
 	margin-left: 20px;
 	background-color: #f1bbd6;
 	text-align: center;
@@ -21,7 +21,7 @@
 }
 
 h3 {
-    font-family: "Audiowide", sans-serif;
+   	font-family: "Audiowide", sans-serif;
 }
 
 #posts {
@@ -33,20 +33,20 @@ h3 {
 
 #add-post {
 	background-color: #f0a4ca;
-    color: rgb(116, 31, 73)2 ;
-    border: solid 2px rgb(116, 31, 73) ;
-    font-size: large;
-    height: 2rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 12px;
-    flex-grow: 0;
-    border-radius: 0.4rem;
+	color: rgb(116, 31, 73)2 ;
+	border: solid 2px rgb(116, 31, 73) ;
+	font-size: large;
+	height: 2rem;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 12px;
+	flex-grow: 0;
+	border-radius: 0.4rem;
 }
 
 #add-post:hover {
 	background-color: #db7093;
-    color: white;
+   	color: white;
 }
 .post.preloader.disabled {
 	display: none;
