@@ -5,6 +5,7 @@ window.addEventListener('load', () => {
     const posts = document.getElementById("posts");
     const button = document.getElementById("add-post");
     button.addEventListener('click', async function (e) {
+        button.disabled = true;
         const post_t = document.getElementById("one-post");
         const post = post_t.content.cloneNode(true);
         const post_title = post.querySelector("h3");
@@ -28,9 +29,11 @@ window.addEventListener('load', () => {
             } else {
                 alert("⚠ Something went wrong!");
             }
+            button.disabled = false;
         } catch (error) {
             alert("⚠ Something went wrong!");
-            preloader.classList.add('disabled');        
+            preloader.classList.add('disabled');     
+            button.disabled = false;   
         }
     });
 })
