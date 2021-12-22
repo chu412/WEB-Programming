@@ -225,3 +225,10 @@ th {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+
+#my-video {
+    width: 640px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
