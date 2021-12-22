@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+    <script src="static/script/time.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav class="slider-bar">
+        <a class="nav_element" href="index.html"> Cities in the world</a>   
+        <a class="nav_element" href="gallery.html"> Gallery Photo</a> 
+        <a class="nav_element" href="money.html"> Money</a> 
+        <a class="nav_element" href="todolist.html">TODO List</a>
+        <a class="nav_element" href="request.html">Request</a>
+        <a class="nav_element" href="contact.html">Contact</a>
+        <a class="nav_element" href="video.html">Video</a>
+    </nav>
+    <main>
+        <video  id="my-video" 
+                class="vjs-theme-forest video-js" 
+                controls preload="auto"
+                poster="static/picture/video_poster.jpg" 
+                data-setup="{}">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
+        </video>
+    </main>
+    <footer>
+        <p>© Copyright by <span>Chu Phuong Thao</span> </p>
+     </footer>
+    
+</body>
+</html>
